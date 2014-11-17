@@ -1,0 +1,67 @@
+.btn-control {
+	width: 48px;
+	height: 48px;
+	display: inline-block;
+}
+.sm-control {
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+}
+.btn-albums {
+	background: url('../imgs/player-controls.png') -312px -9px no-repeat;
+}
+.btn-prev {
+	background: url('../imgs/player-controls.png') -121px -8px no-repeat;
+}
+.btn-play {
+	background: url('../imgs/player-controls.png') -8px -8px no-repeat;
+}
+.btn-pause {
+	background: url('../imgs/player-controls.png') -64px -8px no-repeat;
+}
+.btn-next {
+	background: url('../imgs/player-controls.png') -177px -8px no-repeat;
+}
+.progress-bar {
+	display: inline-block;
+	width: 85%;
+	height: 3px;
+	background-color: #676F73;
+	margin: 10px 0 23px 10px;
+	overflow: hidden;
+}
+.seek-bar {
+	background: url('../imgs/player-controls.png') -12px -71px repeat-x;
+	height: 100%;
+	cursor: pointer;
+}
+.play-bar {
+	background: url('../imgs/player-controls.png') -12px -87px repeat-x;
+	height: 100%;
+	cursor: pointer;
+}
+.max-volume {
+	background: url('../imgs/player-controls.png') -282px -9px no-repeat;
+}
+.min-volume {
+	background: url('../imgs/player-controls.png') -298px -9px no-repeat;
+}
+.volume-bar {
+	width: 100px;
+	height: 3px;
+	background-color: #676F73;
+	margin: 6px 0;
+	overflow: hidden;
+	display: inline-block;
+}
+.volume {
+	background: url('../imgs/player-controls.png') -12px -71px repeat-x;
+	height: 100%;
+	cursor: pointer;
+}
+.volume-value {
+	background: url('../imgs/player-controls.png') -12px -87px repeat-x;
+	height: 100%;
+	cursor: pointer;
+}

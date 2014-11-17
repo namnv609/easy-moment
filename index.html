@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+		<meta charset="utf-8" />
+		<title>9xSoft Group - All best for you!</title>
+		<meta name="Author" content="-!-Nam - Battai [9xSoft Group]-!-" />
+		<meta name="Copyright" content="Copyright (c)2008-2013 by 9xSoft Group" />
+		<meta name="Description" content="9xSoft Group - All best for you!" />
+		<meta name="Keyword" content="9xsoft group, nam battai, all best for you, software, freeware" />
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<link rel="stylesheet" href="css/player.css" type="text/css" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,vietnamese,latin-ext' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/animate.css" type="text/css" />
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+		<script type="text/javascript" src="js/jplayer.playlist.min.js"></script>
+		<script type="text/javascript" src="js/albums.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript">
+			$(window).load(function() {
+				$("#loading").fadeOut();
+			});
+		</script>
+	</head>
+	<body>
+		<div id="loading">
+			<div id="load-text">
+				<img src="imgs/loading.gif" />
+				<p>
+					Đang tải. Các thím vui lòng đợi em xíu... 
+					<img src="imgs/brick.png" />
+				</p>
+			</div>
+		</div>
+		<div id="bg-overlay"></div>
+		<div id="popup-overlay">
+			<div id="popup-container">
+				<div id="popup-content">
+					Đang tải. Vui lòng đợi....
+				</div>
+			</div>
+		</div>
+		<div id="wrapper">
+			<div id="top-nav">
+				<a href="javascript:;" class="show-popup" data-url="about.html">
+					About Me!!!
+				</a>
+				<p class="copyright">
+					Designed by NamNV609.<br />
+					Copyright &copy;2014 by NamNV609. All rights reserved.
+				</p>
+			</div>
+			aaa
+			<div id="player">
+				<div id="player-container"></div>
+				<div class="player-top">
+					<a href="javascript:;" data-url="albums.html" title="Albums" class="btn-control btn-albums show-popup"></a>
+					<div class="top-right">
+						<a href="javascript:;" class="sm-control min-volume" title="Unmute"></a>
+						<a href="javascript:;" class="sm-control max-volume" title="Mute"></a>
+						<div class="volume-bar">
+							<div class="volume">
+								<div class="volume-value"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="player-middle">
+					<div class="jp-playlist" style="display: none !important;">
+						<ul>
+							<li></li>
+						</ul>
+					</div>
+					<div class="left-control control">
+						<a href="javascript:;" class="btn-control btn-prev jp-previous" title="Previous"></a>
+					</div>
+					<div class="song-cover">
+						<div class="middle-control">
+							<a href="javascript:;" class="btn-control btn-play" title="Play"></a>
+							<a href="javascript:;" class="btn-control btn-pause" title="Pause"></a>
+						</div>
+					</div>
+					<div class="right-control control">
+						<a href="javascript:;" class="btn-control btn-next jp-next" title="Next"></a>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="song-info">
+					<span class="name">Song Name</span>
+					<span class="artist">Artist</span>
+				</div>
+				<div id="player-controls">
+					<div class="current-time">00:00</div>
+					<div class="progress-bar">
+						<div class="seek-bar">
+							<div class="play-bar"></div>
+						</div>
+					</div>
+					<div class="duration">00:00</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

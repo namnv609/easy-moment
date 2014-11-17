@@ -1,0 +1,28 @@
+<script type="text/javascript">
+	$(function() {
+		var albumLength = Object.keys(albums).length;
+		
+		for (var album in albums) {
+			var songNumb = Object.keys(albums[album]["songs"]).length;
+			songNumb = (songNumb < 10) ? "0" + songNumb : songNumb;
+			
+			var $template = $("#template li").clone();
+			$template.find("img").prop("src", albums[album]["cover"]);
+			$template.find("p.album-name").text(albums[album]["name"]);
+			$template.find("span.song-number").text(songNumb);
+			$template.appendTo("#list-album ul");
+		}
+	});
+</script>
+<h1 class="title">Albums</h1>
+<div id="list-album">
+	<ul></ul>
+</div>
+<div id="template" style="display: none;">
+	<li>
+		<img src="/" />
+		<p class="album-name">Album name</p>
+		<p>Bài hát: <span class="song-number">00</span> bài</p>
+		<p class="clear"></p>
+	</li>
+</div>
